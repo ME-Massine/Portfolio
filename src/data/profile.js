@@ -23,9 +23,15 @@ export const PROFILE = {
   experience: [
     {
       period: '2026 — present',
-      title: 'Freelance Full-Stack Developer',
+      title: 'Freelance Software Developer',
       place: 'MASID — case coordination platform',
       desc: 'Building the case-coordination side of a multilingual platform for a Moroccan association, in a team of two: accounts and permissions, the case and referral workflow, private attachments, audit and data retention, on Laravel, Inertia and React.',
+    },
+    {
+      period: 'Jul — Sep 2026',
+      title: 'Software Engineering Intern',
+      place: 'G-TEC Multiservice',
+      desc: 'Designed and built PulseStream, an IoT platform with REST ingestion, asynchronous processing on Kafka, anomaly handling and PostgreSQL persistence. Deployed containerized Spring Boot services to Kubernetes with Kafka through Strimzi and autoscaling, and set up CI/CD and observability with GitHub Actions, Prometheus, Grafana, OpenTelemetry and Jaeger.',
     },
     {
       period: '3rd-year PFA · 6 weeks',
@@ -37,17 +43,21 @@ export const PROFILE = {
   education: [
     {
       period: '2022 — 2027',
-      title: 'Engineering Degree, Software Development',
+      title: 'Engineering Degree, Computer Science & Networks',
       place: 'EMSI — École Marocaine des Sciences de l’Ingénieur, Rabat',
-      desc: 'Final year of the engineering cycle. Distributed systems, databases, software architecture, networks and algorithms.',
+      desc: 'Fifth and final year, specializing in Digital Development and Information Systems.',
     },
   ],
   certifications: [
     {
-      period: 'June 2024',
-      title: 'ALX Software Engineering — Back-End Track',
-      place: 'ALX',
-      desc: 'Backend development, API architecture, database systems and DevOps fundamentals.',
+      period: 'Sept 2026',
+      title: 'Oracle Certified Professional: Java SE 17 Developer',
+      place: 'Oracle',
+    },
+    {
+      period: 'April 2025',
+      title: 'Software Design and Project Management',
+      place: 'HKUST · Coursera',
     },
     {
       period: 'April 2025',
@@ -55,16 +65,23 @@ export const PROFILE = {
       place: 'IBM · Coursera',
       desc: 'Python for data analysis, scientific computing and AI fundamentals.',
     },
+    {
+      period: 'June 2024',
+      title: 'ALX Software Engineering — Back-End Track',
+      place: 'ALX',
+      desc: 'Backend development, API architecture, database systems and DevOps fundamentals.',
+    },
   ],
   skills: [
     { group: 'Core', items: ['Distributed systems', 'Event-driven architecture', 'Microservices'] },
     { group: 'Languages', items: ['Java', 'SQL', 'JavaScript / TypeScript', 'PHP', 'Python'] },
-    { group: 'Backend', items: ['Spring Boot', 'Laravel', 'REST API design', 'WebSocket', 'JWT / RBAC'] },
+    { group: 'Backend', items: ['Spring Boot', 'Spring Security', 'JPA / Hibernate', 'Laravel', 'REST API design', 'WebSocket', 'JWT / RBAC'] },
     { group: 'Messaging', items: ['Apache Kafka', 'RabbitMQ'] },
     { group: 'Data', items: ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis'] },
-    { group: 'Cloud & DevOps', items: ['Docker', 'Kubernetes', 'GitHub Actions', 'Azure'] },
+    { group: 'Cloud & DevOps', items: ['Docker', 'Kubernetes', 'GitHub Actions', 'Maven', 'Azure'] },
+    { group: 'Quality & tools', items: ['Automated testing', 'Git', 'Postman', 'Swagger / OpenAPI'] },
     { group: 'Observability', items: ['Prometheus', 'Grafana', 'OpenTelemetry', 'Micrometer'] },
     { group: 'Patterns', items: ['Saga', 'Outbox', 'Idempotency', 'DLQ & replay'] },
   ],
-  languages: ['Arabic — native', 'French — fluent', 'English — fluent', 'Spanish — basic'],
+  languages: ['Arabic — fluent', 'French — fluent', 'English — advanced', 'Spanish — basic'],
 };

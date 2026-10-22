@@ -14,7 +14,7 @@ export const PROJECTS = [
     name: 'PulseStream',
     kicker: 'Cloud-native event platform',
     year: '2026',
-    role: 'Solo — backend & infrastructure',
+    role: 'Internship at G-TEC Multiservice — backend & infrastructure',
     status: 'In progress',
     tags: ['distributed'],
     featured: true,
@@ -64,7 +64,7 @@ export const PROJECTS = [
       ],
     },
     overview: [
-      'IoT telemetry is a stream problem: many producers, readings that keep arriving, and several consumers that each care about something different. A single service that accepts a request, checks it and writes to a database works until ingestion has to keep going while processing is slow, broken or being redeployed. I wanted to build the version where those concerns are actually separated, and where I can see what the pipeline is doing.',
+      'IoT telemetry is a stream problem: many producers, readings that keep arriving, and several consumers that each care about something different. A single service that accepts a request, checks it and writes to a database works until ingestion has to keep going while processing is slow, broken or being redeployed. During my internship at G-TEC Multiservice I built the version where those concerns are actually separated, and where you can see what the pipeline is doing.',
       'PulseStream is that platform. An ingestion service accepts telemetry over REST and publishes it to Kafka. A telemetry processor normalizes each event, runs threshold and sudden-deviation anomaly rules, persists normal readings to PostgreSQL and publishes processed and anomaly events to their own topics. It is not finished: the query-service is a deployable scaffold, anomalies are published but not yet persisted, and the Kubernetes deployment is implemented but still waiting on live-cluster validation.',
     ],
     approach: [
